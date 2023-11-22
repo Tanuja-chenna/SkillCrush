@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>What will my title be?</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!--These are the fonts from Google Fonts; copy and pasted code as well as saved the .tiff code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Galada&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="content-wrapper">
+        <h1><span>Rogue</span>Pickings</h1>
+
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="top-section">
+        <div class="content-wrapper">
+          <div class="main-image">
+            <img src="/img/green-bean.jpg" alt="picture of a green bean" />
+          </div>
+
+          <div class="main-title">
+            <h2>Welcome to our little corner of the Internet</h2>
+            <p>
+              "Welcome to Rogue Pickings, the roaming truck bringing you the
+              freshest ingrediants and ideas in food. Our team works hard so you
+              can be sure out ingrediants are always fresh and picked carefully.
+              Our menu changes every day and is made with you in mind. We can't
+              wait to come to you! Check out our locations to see where you can
+              find us."
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <div class="content-wrapper">
+          <div class="section-one" id="menu">
+            <h3>Today's Specials</h3>
+            <ul class="menu-list">
+              <li>Flaming Hummus & Falafel Salad</li>
+              <li>Sizzling Bean Burritos</li>
+              <li>Green Gloves Tamales</li>
+            </ul>
+          </div>
+          <div class="section-two" id="reviews">
+            <h3>Our Latest Reviews</h3>
+            <p>
+              "I got so excited about the yumminess of the falafel salad that I
+              am typing this review as I inhale my lunch. Yes, teh food is that
+              good..."
+            </p>
+          </div>
+          <div class="section-three" id="contact">
+            <h3>Contact</h3>
+            <p>
+              1001 Potrero Avenue
+              <br />
+              San Francisco,CA 94110
+              <br />
+              (415)206-8000
+              <br />
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="content-wrapper">
+        <h4>Powered by lots of fresh ingrediants</h4>
+      </div>
+    </footer>
+  </body>
+</html>
+-------------------------------------------------------------
+
+/******** GLOBAL STYLES ********/
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+h4 {
+
+}
+
+p {
+    line-height: 36px;
+    font-size: 16px;
+
+}
+
+.content-wrapper {
+
+}
+
+/******** HEADER STYLES ********/
+header h1 {
+    /***outline: 3px dotted red;***/
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding: 36px 36px;
+
+}
+
+header h1 span { /**Because in the HTML code, the <span> is surrounding Rogue**/
+    color:#45610e;
+
+}
+
+header nav {
+    /**outline: 3px dotted red;**/
+    width: 300px;
+    float: right;
+    padding: 44px 0px;
+
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 10px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #45610e;
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+.main-image img {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-color: #77A466;
+    border-style: solid;
+
+}
+
+.main-title h2 {
+
+}
+
+/******** BOTTOM SECTION ********/
+.bottom-section .content-wrapper {
+    border-top: #EEE;
+    border-bottom: #EEE;
+    border-width:5px;
+    border-style: solid;
+
+
+}
+
+.section-one,
+.section-two,
+.section-three {
+    /**outline: 3px dotted red;**/
+
+}
+
+.section-one {
+    width: 350px;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    
+}
+
+.section-two {
+
+    width: 500px;
+    box-sizing: border-box;
+    float: left;
+    border-right: #EEE;
+    border-bottom: #EEE;
+    border-top: #EEE;
+    border-left: #EEE;
+    border-width: 5px;
+    border-style: solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+
+}
+
+.section-three {
+    width: 350px;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+
+}
+
+.bottom-section h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.menu-list {
+
+}
+
+.menu-list li {
+
+}
+
+/******** FOOTER STYLES ********/
+footer {
+    text-align: center;
+    padding-top:8px;
+
+}
+
+footer span {
+
+}
