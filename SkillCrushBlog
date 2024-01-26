@@ -1,0 +1,44 @@
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+<body>
+<header>
+	<h1>Skillcrush blog </h1>
+<nav>
+<ul>
+	<li>
+		<a href="#work-tech">Work in Tech </a>
+	</li>
+	<li>
+		<a href="#learn-skills">Learn Tech Skills</a>
+	</li>
+	<li>
+		<a href="#product-updates">Product Updates</a>
+	</li>
+	</ul>
+	</nav>
+	</header>
+<main>
+	<article>
+		<h2>4 Things you Must Do to Land a Junior Web Developer Job</h2>
+		<h5>Written by Kelli Smith</h5>
+		<p>Here are 3 things you must do to get your phone ringing or email box filling. up with interview invites. Get started today!</p>
+		<h3>Build Your Portfolio Site</h3>
+		<p>Creating your portfolio is JOB ONE if you want to get a developer job.</p>
+		<h3>Do Freeland Projects</h3>
+		<p>It'll give you the chance to buildc your experience and beef up your bank balance while rounding out your portfolio.</p>
+		<h3>Put your Code on Github</h3>
+		<p>github is the industry standard for version control, so many companies want to know that you already know how to use this tool.</p>
+	</article>
+</main>
+<aside>
+	<h4>About Kelli Smith</h4>
+	<p>Kelli is the senuior operations manager at Skillcrush. She's also an early skillcrush alum!</p>
+	</aside>
+<footer>
+	<p>Follow Skillcrush on</p> <a href="https://www.linkedi.com/school/skillcrush/" target="_blank">Linkedin</a>
+	<p>&copy; Skillcrush, Inc. All Rights Reserved</p>	
+	</footer>
+	</body>
+</html>
